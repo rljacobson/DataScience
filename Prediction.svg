@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 560 288" style="enable-background:new 0 0 560 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FBB03A;stroke:#EC2027;stroke-width:0.236;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:12px;}
+	.st3{fill:#6FCCDD;stroke:#3953A4;stroke-width:0.236;stroke-miterlimit:10;}
+	.st4{fill:#999999;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#6FCCDD;stroke:#3953A4;stroke-miterlimit:10;}
+	.st6{fill:#FBB03A;stroke:#EC2027;stroke-miterlimit:10;}
+	.st7{fill:#93288D;stroke:#ED1F79;stroke-miterlimit:10;}
+	.st8{fill:#FFFFFF;}
+	.st9{font-family:'HelveticaNeue';}
+	.st10{font-size:36px;}
+	.st11{fill:#999999;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="392.8" cy="80.6" r="22.4"/>
+	<text transform="matrix(1 0 0 1 428.509 84.1041)" class="st1 st2">Predicted Subscribers</text>
+</g>
+<g>
+	<circle class="st3" cx="392.8" cy="142" r="22.4"/>
+	<text transform="matrix(1 0 0 1 428.509 145.572)" class="st1 st2">Actual Subscribers</text>
+</g>
+<g>
+	<rect x="18.3" y="13.4" class="st4" width="321.2" height="267.4"/>
+	<g>
+		<circle class="st5" cx="148.2" cy="136.8" r="95.1"/>
+		<circle class="st6" cx="209.6" cy="136.8" r="95.1"/>
+	</g>
+	<ellipse class="st7" cx="178.9" cy="136.8" rx="64.4" ry="90"/>
+	<g>
+		<text transform="matrix(1 0 0 1 162.3629 147.3123)" class="st8 st9 st10">TP</text>
+		<text transform="matrix(1 0 0 1 251.4934 147.3124)" class="st8 st9 st10">FP</text>
+		<text transform="matrix(1 0 0 1 62.363 147.3127)" class="st8 st9 st10">FN</text>
+	</g>
+	<text transform="matrix(1 0 0 1 155.5959 266.1533)" class="st9 st10">TN</text>
+</g>
+<g>
+	<rect x="367.8" y="177.2" class="st11" width="63.3" height="52.7"/>
+	<text transform="matrix(1 0 0 1 443.5977 207.0394)" class="st1 st2">All Customers</text>
+</g>
+</svg>

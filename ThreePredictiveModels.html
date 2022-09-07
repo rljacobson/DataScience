@@ -14669,7 +14669,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_path</span> <span class="o">=</span> <span class="s1">'bank-additional/bank-additional-full.csv'</span>
@@ -14796,7 +14796,7 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
@@ -15174,7 +15174,7 @@ dtype: object
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Education could be an ordered education <em>level</em>. It isn't entirely clear what the ordering should be. A reasonable guess from least education to most education might be</p>
+<p>Education could be an ordered education <em>level</em>. A reasonable guess of order from least education to most education might be</p>
 <ol>
 <li>illiterate</li>
 <li>basic.4y</li>
@@ -15811,28 +15811,11 @@ dtype: object
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">months</span> <span class="o">=</span> <span class="p">{</span> <span class="n">m</span><span class="p">:</span> <span class="n">i</span><span class="o">+</span><span class="mi">3</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">m</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="s1">'mar'</span><span class="p">,</span> <span class="s1">'apr'</span><span class="p">,</span> <span class="s1">'may'</span><span class="p">,</span> <span class="s1">'jun'</span><span class="p">,</span> <span class="s1">'jul'</span><span class="p">,</span> <span class="s1">'aug'</span><span class="p">,</span> <span class="s1">'sep'</span><span class="p">,</span> <span class="s1">'oct'</span><span class="p">,</span> <span class="s1">'nov'</span><span class="p">,</span> <span class="s1">'dec'</span><span class="p">])</span> <span class="p">}</span>
-</pre></div>
-</body></html>
-
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">'contact_month'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'contact_month'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">months</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">months</span> <span class="o">=</span> <span class="p">{</span> <span class="n">m</span><span class="p">:</span> <span class="n">i</span><span class="o">+</span><span class="mi">3</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">m</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">([</span><span class="s1">'mar'</span><span class="p">,</span> <span class="s1">'apr'</span><span class="p">,</span> <span class="s1">'may'</span><span class="p">,</span> <span class="s1">'jun'</span><span class="p">,</span> <span class="s1">'jul'</span><span class="p">,</span> <span class="s1">'aug'</span><span class="p">,</span> <span class="s1">'sep'</span><span class="p">,</span> <span class="s1">'oct'</span><span class="p">,</span> <span class="s1">'nov'</span><span class="p">,</span> <span class="s1">'dec'</span><span class="p">])</span> <span class="p">}</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'contact_month'</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'contact_month'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">months</span><span class="p">[</span><span class="n">x</span><span class="p">])</span>
 </pre></div>
 </body></html>
 
@@ -16097,7 +16080,7 @@ class="
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  " aria-hidden="true">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -16115,7 +16098,7 @@ class="
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  " aria-hidden="true">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -16140,7 +16123,7 @@ class="
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  " aria-hidden="true">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -16261,7 +16244,7 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Probably don't need this list, but we keep it to make the excluded columns explicit.</span>
@@ -16280,24 +16263,8 @@ class="
 
 <span class="c1"># Columns to use as predictors for linear regression.</span>
 <span class="n">lr_columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'age'</span><span class="p">,</span> <span class="s1">'job'</span><span class="p">,</span> <span class="s1">'marital'</span><span class="p">,</span> <span class="s1">'housing_loan'</span><span class="p">,</span> <span class="s1">'personal_loan'</span><span class="p">,</span> <span class="s1">'contact_method'</span><span class="p">,</span> <span class="s1">'contact_month'</span><span class="p">,</span> <span class="s1">'contact_weekday'</span><span class="p">,</span>  <span class="s1">'contact_count'</span><span class="p">,</span>  <span class="s1">'employment_variation_rate'</span><span class="p">,</span> <span class="s1">'consumer_price_index'</span><span class="p">,</span> <span class="s1">'consumer_confidence_index'</span><span class="p">,</span> <span class="s1">'euribor_3_month_rate'</span><span class="p">,</span> <span class="s1">'employee_count'</span><span class="p">,</span> <span class="s1">'education_level'</span><span class="p">]</span>
-</pre></div>
-</body></html>
 
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_lr</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">lr_columns</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="s1">'education'</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">()]</span>
+<span class="n">df_lr</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">lr_columns</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="s1">'education'</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">()]</span>
 <span class="n">df_lr_outcome</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">'outcome'</span><span class="p">][</span><span class="n">df</span><span class="p">[</span><span class="s1">'education'</span><span class="p">]</span><span class="o">.</span><span class="n">notnull</span><span class="p">()]</span>
 </pre></div>
 </body></html>
@@ -16325,68 +16292,20 @@ class="
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># First value is implicit</span>
 <span class="n">encoded_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'contact_method'</span><span class="p">,</span> <span class="s1">'contact_weekday'</span><span class="p">]</span>
 <span class="n">df_dummies</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df_lr</span><span class="p">[</span><span class="n">encoded_cols</span><span class="p">],</span> <span class="n">drop_first</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">dummy_na</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-</body></html>
 
+<span class="n">df_lr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_lr</span><span class="p">[[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_lr</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">encoded_cols</span><span class="p">]],</span> <span class="n">df_dummies</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_lr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_lr</span><span class="p">[[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_lr</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">encoded_cols</span><span class="p">]],</span> <span class="n">df_dummies</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-</body></html>
-
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># NaN value is implicit</span>
+<span class="c1"># NaN value is implicit</span>
 <span class="n">encoded_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'marital'</span><span class="p">,</span> <span class="s1">'job'</span><span class="p">,</span> <span class="s1">'housing_loan'</span><span class="p">,</span> <span class="s1">'personal_loan'</span><span class="p">]</span>
 <span class="n">df_dummies</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">get_dummies</span><span class="p">(</span><span class="n">df_lr</span><span class="p">[</span><span class="n">encoded_cols</span><span class="p">],</span> <span class="n">drop_first</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span> <span class="n">dummy_na</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</pre></div>
-</body></html>
 
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_lr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_lr</span><span class="p">[[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_lr</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">encoded_cols</span><span class="p">]],</span> <span class="n">df_dummies</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">df_lr</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">df_lr</span><span class="p">[[</span><span class="n">c</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">df_lr</span><span class="o">.</span><span class="n">columns</span> <span class="k">if</span> <span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">encoded_cols</span><span class="p">]],</span> <span class="n">df_dummies</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </body></html>
 
@@ -16816,7 +16735,7 @@ class="
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Training-the-Random-Forest-Model">Training the Random Forest Model<a class="anchor-link" href="#Training-the-Random-Forest-Model">&#182;</a></h3>
+<h3 id="Code-for-Training-the-Random-Forest-Model">Code for Training the Random Forest Model<a class="anchor-link" href="#Code-for-Training-the-Random-Forest-Model">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -16857,7 +16776,15 @@ class="
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Checking whether there is an H2O instance running at http://localhost:54321 . connected.
+<pre>Checking whether there is an H2O instance running at http://localhost:54321 ..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version &#34;17.0.1&#34; 2021-10-19; OpenJDK Runtime Environment Temurin-17.0.1+12 (build 17.0.1+12); OpenJDK 64-Bit Server VM Temurin-17.0.1+12 (build 17.0.1+12, mixed mode, sharing)
+  Starting server from /usr/local/miniconda3/envs/datascience/lib/python3.10/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /var/folders/rx/xzdlj2w1459dp5msj8hv4v940000gn/T/tmp_apsh7uo
+  JVM stdout: /var/folders/rx/xzdlj2w1459dp5msj8hv4v940000gn/T/tmp_apsh7uo/h2o_rljacobson_started_from_python.out
+  JVM stderr: /var/folders/rx/xzdlj2w1459dp5msj8hv4v940000gn/T/tmp_apsh7uo/h2o_rljacobson_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
 </pre>
 </div>
 </div>
@@ -16871,7 +16798,7 @@ class="
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
 <div style="overflow:auto"><table style="width:50%"><tr><td>H2O_cluster_uptime:</td>
-<td>1 hour 21 mins</td></tr>
+<td>03 secs</td></tr>
 <tr><td>H2O_cluster_timezone:</td>
 <td>America/New_York</td></tr>
 <tr><td>H2O_data_parsing_timezone:</td>
@@ -16879,13 +16806,13 @@ class="
 <tr><td>H2O_cluster_version:</td>
 <td>3.36.1.4</td></tr>
 <tr><td>H2O_cluster_version_age:</td>
-<td>28 days, 21 hours and 16 minutes </td></tr>
+<td>1 month and 2 days </td></tr>
 <tr><td>H2O_cluster_name:</td>
-<td>rljacobson</td></tr>
+<td>H2O_from_python_rljacobson_w3tk07</td></tr>
 <tr><td>H2O_cluster_total_nodes:</td>
 <td>1</td></tr>
 <tr><td>H2O_cluster_free_memory:</td>
-<td>3.234 Gb</td></tr>
+<td>4 Gb</td></tr>
 <tr><td>H2O_cluster_total_cores:</td>
 <td>4</td></tr>
 <tr><td>H2O_cluster_allowed_cores:</td>
@@ -16893,7 +16820,7 @@ class="
 <tr><td>H2O_cluster_status:</td>
 <td>locked, healthy</td></tr>
 <tr><td>H2O_connection_url:</td>
-<td>http://localhost:54321</td></tr>
+<td>http://127.0.0.1:54321</td></tr>
 <tr><td>H2O_connection_proxy:</td>
 <td>{"http": null, "https": null}</td></tr>
 <tr><td>H2O_internal_security:</td>
@@ -17179,15 +17106,15 @@ class="
 <tbody>
 <tr>
 <td style="text-align:right">Predicted Subscriber</td>
-<td style="text-align:center">TP = 635</td>
-<td style="text-align:center">FP = 941</td>
-<td style="text-align:left">TP + FP = 1576</td>
+<td style="text-align:center">TP = 596</td>
+<td style="text-align:center">FP = 812</td>
+<td style="text-align:left">TP + FP = 1408</td>
 </tr>
 <tr>
 <td style="text-align:right">Predicted Nonsubscriber</td>
-<td style="text-align:center">FN = 564</td>
-<td style="text-align:center">TN = 8086</td>
-<td style="text-align:left">FN + TN = 8650</td>
+<td style="text-align:center">FN = 603</td>
+<td style="text-align:center">TN = 8215</td>
+<td style="text-align:left">FN + TN = 8818</td>
 </tr>
 <tr>
 <td style="text-align:right">Total</td>
@@ -17249,11 +17176,11 @@ class="
 <tbody>
 <tr>
 <td style="text-align:right">Recall</td>
-<td style="text-align:left">${ {\mathrm {TP} } \over {\mathrm {TP} +\mathrm {FN} }}=$ 52.96%</td>
+<td style="text-align:left">${ {\mathrm {TP} } \over {\mathrm {TP} +\mathrm {FN} }}=$ 49.71%</td>
 </tr>
 <tr>
 <td style="text-align:right">Selectivity</td>
-<td style="text-align:left">${ {\mathrm {TN} } \over {\mathrm {TN} +\mathrm {FP} }}=$ 89.58%</td>
+<td style="text-align:left">${ {\mathrm {TN} } \over {\mathrm {TN} +\mathrm {FP} }}=$ 91.00%</td>
 </tr>
 </tbody>
 </table>
@@ -17289,15 +17216,106 @@ class="
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Pipeline">Pipeline<a class="anchor-link" href="#Pipeline">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We will demonstrate a typical data pipeline with this model. A pipeline encapsulates the data cleaning and preprocessing steps. The advantages of a pipeline over a more ad hoc approach are staples of software engineering best practices:</p>
+<ul>
+<li>Encapsulation: The implementation details of a software component are hidden from users that do not need to know those details.</li>
+<li>Separation of Concerns: Data cleaning, preprocessing, and encoding are different and distinct activities from model training, validation, and deployment. Therefore, it makes sense to separate these tasks into different modules.</li>
+<li>DRY: Don't Repeat Yourself. Modular software components are able to be reused. Programmers are spared having to write the same code over and over again. </li>
+<li>Reproducability: Capturing the data preparation phase in a pipeline means that running the same pipeline on the same data produces the same results every time.</li>
+</ul>
+<p>There are other ML-specific advantages of using a formal data pipeline, some of which will depend on the architecture of the pipeline (the software framework used). For example:</p>
+<ul>
+<li>Scale: Data pipelines can be run as distributed workloads in a cluster and on an as-needed basis.</li>
+<li>Efficiency: The results of intermediate steps of a pipeline can be cached and resused if needed.</li>
+<li>Independence of ML Framework: There are many ML frameworks in common use, like TensorFlow, PyTorch, SparkML, and so on. Encapsulating data preparation into a discrete unit makes this phase independent of these frameworks.</li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We have already written the pieces that will go in to our pipeline. Like linear regression, but unlike random forests, neural networks require input data to be numeric. Here is a summary of transformations we need to make on the data set before inputing it into a neural network classifier:</p>
+<ol>
+<li>Rename the columns with meaningful names</li>
+<li>Replace special values that indicate missing data with a consistent NaN value</li>
+<li>Create <code>education_level</code> as a numeric quantity from the categorical <code>education</code> column</li>
+<li>Exclude <code>credit_in_default</code>, <code>call_duration</code>, and other columns that should not be used for prediction</li>
+<li>Make <code>months</code> numeric</li>
+<li>Make <code>outcome</code> numeric</li>
+<li>Filter out extremely low frequency unknowns</li>
+<li>Encode categorical data that is never missing using simple dummy encoding, making the first value implicit</li>
+<li>Encode categorical data that does have missing data using simple dummy encoding, making the <code>NaN</code> value implicit</li>
+</ol>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Pipeline-Code">Pipeline Code<a class="anchor-link" href="#Pipeline-Code">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The following code is less than satisfying due to</p>
+<ol>
+<li>limitations in SciKit-Learn's pipeline API, and</li>
+<li>the amount of time I have to mitigate #1.</li>
+</ol>
+<p>In 'real life' I would package the code far better.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># ToDo</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span><span class="p">,</span> <span class="n">OrdinalEncoder</span><span class="p">,</span> <span class="n">LabelEncoder</span><span class="p">,</span> <span class="n">OneHotEncoder</span>
+<span class="kn">from</span> <span class="nn">sklearn.impute</span> <span class="kn">import</span> <span class="n">SimpleImputer</span>
+<span class="kn">from</span> <span class="nn">sklearn.compose</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span>
+<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>
+
+<span class="kn">from</span> <span class="nn">sklearn.neural_network</span> <span class="kn">import</span> <span class="n">MLPClassifier</span>
 </pre></div>
 </body></html>
 
@@ -17307,6 +17325,531 @@ class="
 </div>
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[109]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Does not work in place.</span>
+<span class="k">def</span> <span class="nf">rename_columns</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
+        <span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+            <span class="c1"># Customer info</span>
+            <span class="s1">'y'</span><span class="p">:</span><span class="s1">'outcome'</span><span class="p">,</span> 
+            <span class="s1">'default'</span><span class="p">:</span> <span class="s1">'credit_in_default'</span><span class="p">,</span> 
+            <span class="s1">'housing'</span><span class="p">:</span> <span class="s1">'housing_loan'</span><span class="p">,</span> 
+            <span class="s1">'loan'</span><span class="p">:</span>    <span class="s1">'personal_loan'</span><span class="p">,</span> 
+
+            <span class="c1"># Specific to this campaign</span>
+            <span class="s1">'contact'</span><span class="p">:</span>     <span class="s1">'contact_method'</span><span class="p">,</span>
+            <span class="s1">'month'</span><span class="p">:</span>       <span class="s1">'contact_month'</span><span class="p">,</span>
+            <span class="s1">'day_of_week'</span><span class="p">:</span> <span class="s1">'contact_weekday'</span><span class="p">,</span>
+            <span class="s1">'duration'</span><span class="p">:</span>    <span class="s1">'contact_duration'</span><span class="p">,</span> <span class="c1"># Do not use for prediction. See data description.</span>
+            <span class="s1">'campaign'</span><span class="p">:</span>    <span class="s1">'contact_count'</span><span class="p">,</span>    <span class="c1"># For this campaign only</span>
+            <span class="c1"># Regarding previous campaign</span>
+            <span class="s1">'pdays'</span><span class="p">:</span>       <span class="s1">'days_since_previous_campaign_contact'</span><span class="p">,</span>
+            <span class="s1">'previous'</span><span class="p">:</span>    <span class="s1">'previous_contact_count'</span><span class="p">,</span> <span class="c1"># Count of times contacted before the current campaign.</span>
+            <span class="s1">'poutcome'</span><span class="p">:</span>    <span class="s1">'previous_outcome'</span><span class="p">,</span>       <span class="c1"># Outcome of previous campaign.</span>
+
+            <span class="c1"># Social and Economic data</span>
+            <span class="s1">'emp.var.rate'</span><span class="p">:</span>   <span class="s1">'employment_variation_rate'</span><span class="p">,</span> <span class="c1"># Quarterly indicator -- for what quarter?</span>
+            <span class="s1">'cons.price.idx'</span><span class="p">:</span> <span class="s1">'consumer_price_index'</span><span class="p">,</span>      <span class="c1"># Monthly indicator -- for what month?</span>
+            <span class="s1">'cons.conf.idx'</span><span class="p">:</span> <span class="s1">'consumer_confidence_index'</span><span class="p">,</span>  <span class="c1"># Monthly indicator -- for what month?</span>
+            <span class="s1">'euribor3m'</span><span class="p">:</span>     <span class="s1">'euribor_3_month_rate'</span><span class="p">,</span>       <span class="c1"># Daily indicator -- for what day?</span>
+            <span class="s1">'nr.employed'</span><span class="p">:</span>   <span class="s1">'employee_count'</span><span class="p">,</span>             <span class="c1"># What is this?</span>
+        <span class="p">}</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">result</span>
+
+
+
+<span class="c1"># Probably don't need this list, but we keep it to make the excluded columns explicit.</span>
+<span class="n">excluded_columns</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="c1"># Too few records have credit in default</span>
+    <span class="s1">'credit_in_default'</span><span class="p">,</span> 
+    <span class="c1"># Data for previous campaign is mostly missing, so we use it only for benchmark comparisons</span>
+    <span class="s1">'days_since_previous_campaign_contact'</span><span class="p">,</span> <span class="s1">'previous_contact_count'</span><span class="p">,</span> <span class="s1">'previous_outcome'</span><span class="p">,</span>
+    <span class="c1"># Encoded as `'education_level'`</span>
+    <span class="s1">'education'</span><span class="p">,</span>
+    <span class="c1"># Excluded; see note in data set description.</span>
+    <span class="s1">'contact_duration'</span><span class="p">,</span>
+    <span class="c1"># Variable we wish to predict</span>
+    <span class="c1"># 'outcome', </span>
+<span class="p">]</span>
+
+<span class="c1"># Columns to use as predictors for linear regression.</span>
+<span class="n">predictors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'age'</span><span class="p">,</span> <span class="s1">'job'</span><span class="p">,</span> <span class="s1">'marital'</span><span class="p">,</span> <span class="s1">'housing_loan'</span><span class="p">,</span> <span class="s1">'personal_loan'</span><span class="p">,</span> <span class="s1">'contact_method'</span><span class="p">,</span> <span class="s1">'contact_month'</span><span class="p">,</span> <span class="s1">'contact_weekday'</span><span class="p">,</span>  <span class="s1">'contact_count'</span><span class="p">,</span>  <span class="s1">'employment_variation_rate'</span><span class="p">,</span> <span class="s1">'consumer_price_index'</span><span class="p">,</span> <span class="s1">'consumer_confidence_index'</span><span class="p">,</span> <span class="s1">'euribor_3_month_rate'</span><span class="p">,</span> <span class="s1">'employee_count'</span><span class="p">,</span> <span class="s1">'education'</span><span class="p">]</span>
+<span class="n">outcome</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'outcome'</span><span class="p">]</span>
+<span class="n">valid_columns</span> <span class="o">=</span> <span class="n">predictors</span> <span class="o">+</span> <span class="n">outcome</span>
+ 
+    
+<span class="k">def</span> <span class="nf">filter_out_low_freq_unknowns</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>   
+    <span class="k">return</span> <span class="n">data</span><span class="p">[</span><span class="n">valid_columns</span><span class="p">][</span><span class="n">data</span><span class="p">[</span><span class="s1">'education'</span><span class="p">]</span><span class="o">!=</span><span class="s1">'unknown'</span><span class="p">]</span>
+
+
+<span class="c1"># Exclude some columns from prediction</span>
+<span class="k">def</span> <span class="nf">select_predictors</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">data</span><span class="p">[</span><span class="n">valid_columns</span><span class="p">]</span>
+
+
+<span class="k">def</span> <span class="nf">make_outcome_numeric</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">convert</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'no'</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">'yes'</span><span class="p">:</span> <span class="mi">1</span><span class="p">}</span>
+    <span class="n">data</span><span class="p">[</span><span class="s1">'outcome'</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">'outcome'</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">convert</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">data</span>
+
+
+<span class="k">def</span> <span class="nf">fix_admin</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
+    <span class="n">replacements</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="c1"># The period confuses the data type conversion method.</span>
+        <span class="s1">'admin.'</span><span class="p">:</span> <span class="s1">'admin'</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">data</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">replacements</span><span class="p">)</span>
+</pre></div>
+</body></html>
+
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># # Note: Modifies in place, returns data.</span>
+<span class="c1"># def normalize_missing_data(data):</span>
+<span class="c1">#     replacements = {</span>
+<span class="c1">#         # Several columns</span>
+<span class="c1">#         'unknown': np.nan,</span>
+<span class="c1">#         # Days since previous campaign contact uses 999 as a special value. Should really only apply this to the days columns.</span>
+<span class="c1">#         999: np.nan,</span>
+<span class="c1">#         # If a customer did not exist during the previous campaing, its outcome is `'nonexistent'`</span>
+<span class="c1">#         'nonexistent': np.nan,</span>
+<span class="c1">#     }</span>
+<span class="c1">#     return data.replace(to_replace=replacements)</span>
+
+
+<span class="c1"># # Note: Modifies in place, overwrites `education_level`, returns data.</span>
+<span class="c1"># def make_education_levels(data):</span>
+<span class="c1">#     ed_levels = {</span>
+<span class="c1">#         'illiterate': 0,</span>
+<span class="c1">#         'basic.4y': 1,</span>
+<span class="c1">#         'basic.6y': 2,</span>
+<span class="c1">#         'basic.9y': 3,</span>
+<span class="c1">#         'high.school': 4,</span>
+<span class="c1">#         'professional.course': 5,</span>
+<span class="c1">#         'university.degree': 6,</span>
+<span class="c1">#         'unknown': np.nan,</span>
+<span class="c1">#         # If I have already replaced `'unknown'` with `np.nan`:</span>
+<span class="c1">#         np.nan: np.nan</span>
+<span class="c1">#     }</span>
+<span class="c1">#     data['education_level'] = data['education'].map(lambda x: ed_levels[x])</span>
+<span class="c1">#     return data</span>
+
+
+<span class="c1"># # Note: Modifies in place, overwrites `contact_month`, returns data.</span>
+<span class="c1"># def make_months_numeric(data):</span>
+<span class="c1">#     months = { m: i+3 for i, m in enumerate(['mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']) }</span>
+<span class="c1">#     data['contact_month'] = data['contact_month'].map(lambda x: months[x])</span>
+<span class="c1">#     return data</span>
+
+
+
+<span class="c1"># # Encode categorical data using simple dummy encoding making first value implicit.</span>
+<span class="c1"># def cat_to_num(data)</span>
+<span class="c1">#     encoded_cols = ['contact_method', 'contact_weekday']</span>
+<span class="c1">#     df_dummies = pd.get_dummies(data[encoded_cols], drop_first = True, dummy_na=False)</span>
+<span class="c1">#     return pd.concat([data[[c for c in data.columns if c not in encoded_cols]], df_dummies], axis=1)</span>
+
+
+<span class="c1"># # Same as above, but use `NaN` value for the implicit dummy column.</span>
+<span class="c1"># def cat_to_num_nan_implicit(data)</span>
+<span class="c1">#     encoded_cols = ['marital', 'job', 'housing_loan', 'personal_loan']</span>
+<span class="c1">#     df_dummies = pd.get_dummies(data[encoded_cols], drop_first = False, dummy_na=True)</span>
+<span class="c1">#     result = pd.concat([data[[c for c in data.columns if c not in encoded_cols]], df_dummies], axis=1)</span>
+<span class="c1">#     # We created dummy NaN columns so we can drop them. </span>
+<span class="c1">#     # ToDo: Is this right? Can't we just say `dummy_na=False`?</span>
+<span class="c1">#     return result[[c for c in result.columns if not c.endswith('_nan')]]</span>
+</pre></div>
+</body></html>
+
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[167]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">month_encoder</span> <span class="o">=</span> <span class="n">OrdinalEncoder</span><span class="p">()</span>
+<span class="n">month_encoder</span> <span class="o">=</span> <span class="n">month_encoder</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="s1">'mar'</span><span class="p">,</span> <span class="s1">'apr'</span><span class="p">,</span> <span class="s1">'may'</span><span class="p">,</span> <span class="s1">'jun'</span><span class="p">,</span> <span class="s1">'jul'</span><span class="p">,</span> <span class="s1">'aug'</span><span class="p">,</span> <span class="s1">'sep'</span><span class="p">,</span> <span class="s1">'oct'</span><span class="p">,</span> <span class="s1">'nov'</span><span class="p">,</span> <span class="s1">'dec'</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">education_encoder</span> <span class="o">=</span> <span class="n">OrdinalEncoder</span><span class="p">()</span>
+<span class="n">education_encoder</span> <span class="o">=</span> <span class="n">education_encoder</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="s1">'illiterate'</span><span class="p">,</span> <span class="s1">'basic.4y'</span><span class="p">,</span> <span class="s1">'basic.6y'</span><span class="p">,</span> <span class="s1">'basic.9y'</span><span class="p">,</span> <span class="s1">'high.school'</span><span class="p">,</span> <span class="s1">'professional.course'</span><span class="p">,</span> <span class="s1">'university.degree'</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">outcome_encoder</span> <span class="o">=</span> <span class="n">OrdinalEncoder</span><span class="p">()</span>
+<span class="n">outcome_encoder</span> <span class="o">=</span> <span class="n">outcome_encoder</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span>
+    <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="s1">'no'</span><span class="p">,</span> <span class="s1">'yes'</span><span class="p">])</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="p">)</span>
+
+
+<span class="n">transformers</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">(</span>
+        <span class="s1">'unknown_to_nan'</span><span class="p">,</span>
+        <span class="n">SimpleImputer</span><span class="p">(</span><span class="n">missing_values</span><span class="o">=</span><span class="s2">"unknown"</span><span class="p">,</span> <span class="n">strategy</span><span class="o">=</span><span class="s2">"constant"</span><span class="p">,</span> <span class="n">fill_value</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">nan</span><span class="p">),</span>
+        <span class="p">[</span><span class="s1">'job'</span><span class="p">,</span> <span class="s1">'marital'</span><span class="p">,</span> <span class="s1">'education'</span><span class="p">,</span> <span class="s1">'housing_loan'</span><span class="p">,</span> <span class="s1">'personal_loan'</span><span class="p">]</span>
+    <span class="p">),</span>
+    <span class="c1"># (</span>
+    <span class="c1">#     'nonexistent_to_nan',</span>
+    <span class="c1">#     SimpleImputer(missing_values="nonexistent", strategy="constant", fill_value=np.nan), </span>
+    <span class="c1">#     ['previous_outcome']</span>
+    <span class="c1"># ),</span>
+    <span class="c1"># (</span>
+    <span class="c1">#     'nines_to_nan',</span>
+    <span class="c1">#     SimpleImputer(missing_values=999, strategy="constant", fill_value=np.nan),</span>
+    <span class="c1">#     ['days_since_previous_campaign_contact']</span>
+    <span class="c1"># ),</span>
+    <span class="p">(</span>
+        <span class="s1">'make_months_numeric'</span><span class="p">,</span>
+        <span class="n">month_encoder</span><span class="p">,</span>
+        <span class="p">[</span><span class="s1">'contact_month'</span><span class="p">]</span>
+    <span class="p">),</span>
+    <span class="p">(</span>
+        <span class="s1">'make_education_level'</span><span class="p">,</span>
+        <span class="n">education_encoder</span><span class="p">,</span>
+        <span class="p">[</span><span class="s1">'education'</span><span class="p">]</span>
+    <span class="p">),</span>
+    <span class="c1"># (</span>
+    <span class="c1">#     'make_outcome_binary',</span>
+    <span class="c1">#     outcome_encoder.</span>
+    <span class="c1">#     ['outcome']</span>
+    <span class="c1"># ),</span>
+    <span class="p">(</span>
+        <span class="c1"># Encode categorical data using simple dummy encoding making first value implicit.</span>
+        <span class="s1">'cat_to_one_hot'</span><span class="p">,</span>
+        <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="s1">'first'</span><span class="p">),</span>
+        <span class="p">[</span><span class="s1">'contact_method'</span><span class="p">,</span> <span class="s1">'contact_weekday'</span><span class="p">]</span>
+    <span class="p">),</span>
+    <span class="p">(</span>
+        <span class="c1"># Same as above, but use `NaN` value for the implicit dummy column.</span>
+        <span class="s1">'cat_with_nan_to_one_hot'</span><span class="p">,</span>
+        <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">handle_unknown</span><span class="o">=</span><span class="s1">'ignore'</span><span class="p">),</span>
+        <span class="p">[</span><span class="s1">'marital'</span><span class="p">,</span> <span class="s1">'job'</span><span class="p">,</span> <span class="s1">'housing_loan'</span><span class="p">,</span> <span class="s1">'personal_loan'</span><span class="p">]</span>
+    <span class="p">),</span>
+    <span class="p">(</span>
+        <span class="s1">'standardize_scale'</span><span class="p">,</span>
+        <span class="n">StandardScaler</span><span class="p">(),</span>
+        <span class="p">[</span><span class="s1">'age'</span><span class="p">,</span> <span class="s1">'contact_count'</span><span class="p">,</span> <span class="s1">'employment_variation_rate'</span><span class="p">,</span> <span class="s1">'consumer_price_index'</span><span class="p">,</span> <span class="s1">'consumer_confidence_index'</span><span class="p">,</span> <span class="s1">'euribor_3_month_rate'</span><span class="p">,</span> <span class="s1">'employee_count'</span><span class="p">]</span>
+    <span class="p">)</span>
+<span class="p">]</span>
+</pre></div>
+</body></html>
+
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Data prep not handled by SciKit-Learn Pipeline API</span>
+<span class="n">df_clean</span> <span class="o">=</span> <span class="n">rename_columns</span><span class="p">(</span><span class="n">df</span><span class="p">)</span> <span class="c1"># ToDo: Figure out how to do this with Pipeline API.</span>
+<span class="n">df_clean</span> <span class="o">=</span> <span class="n">filter_out_low_freq_unknowns</span><span class="p">(</span><span class="n">df_clean</span><span class="p">)</span> <span class="c1"># The Pipeline API cannot filter rows.</span>
+<span class="n">df_clean</span> <span class="o">=</span> <span class="n">make_outcome_numeric</span><span class="p">(</span><span class="n">df_clean</span><span class="p">)</span> <span class="c1"># ToDo: Can be done with an imputer.</span>
+<span class="n">df_clean</span> <span class="o">=</span> <span class="n">fix_admin</span><span class="p">(</span><span class="n">df_clean</span><span class="p">)</span> <span class="c1"># ToDo: Can be done with an imputer?</span>
+
+
+<span class="c1"># Split training and testing sets</span>
+<span class="n">df_train</span><span class="p">,</span> <span class="n">df_test</span><span class="p">,</span> <span class="n">df_outcome_train</span><span class="p">,</span> <span class="n">df_outcome_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">df_clean</span><span class="p">[</span><span class="n">predictors</span><span class="p">],</span> <span class="n">df_clean</span><span class="p">[</span><span class="s1">'outcome'</span><span class="p">],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.25</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+
+
+<span class="c1"># Transform data.</span>
+<span class="n">transformer</span> <span class="o">=</span> <span class="n">ColumnTransformer</span><span class="p">(</span><span class="n">transformers</span><span class="p">,</span> <span class="n">remainder</span><span class="o">=</span><span class="s1">'drop'</span><span class="p">)</span>
+<span class="n">transformer</span> <span class="o">=</span> <span class="n">transformer</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">df_train</span><span class="p">)</span>
+
+<span class="n">df_train</span> <span class="o">=</span> <span class="n">transformer</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">df_train</span><span class="p">)</span>
+<span class="n">df_test</span> <span class="o">=</span> <span class="n">transformer</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">df_test</span><span class="p">)</span>
+
+<span class="c1"># ToDO: Because the `SimpleImputer` acts on some columns before those columns are transformed, `ColumnTransformer`</span>
+<span class="c1">#       retains those columns in the final output. I am not sure how to prevent this behavior.</span>
+<span class="c1"># drop_columns = ['job', 'marital', 'education', 'housing_loan', 'personal_loan']</span>
+<span class="n">df_train</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">df_train</span><span class="p">,</span> <span class="n">obj</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">df_test</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="n">df_test</span><span class="p">,</span> <span class="n">obj</span><span class="o">=</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+
+<span class="c1"># A `Pipeline` object cannot be used until the ToDo above is resolved.</span>
+<span class="c1"># pipeline = Pipeline(</span>
+<span class="c1">#     [</span>
+<span class="c1">#         ('preprocessing_pipeline', transformer),</span>
+<span class="c1">#         ('neural_network_classifier', MLPClassifier(random_state=42))</span>
+<span class="c1">#     ]</span>
+<span class="c1"># )</span>
+</pre></div>
+</body></html>
+
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Training-the-neural-network">Training the neural network<a class="anchor-link" href="#Training-the-neural-network">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The <code>max_iter</code> parameter specifies how many epochs to train for before stopping. The default solver algorithm uses a form of stochastic gradient descent, "a stochastic gradient-based optimizer proposed by Kingma, Diederik, and Jimmy Ba" (<a href="https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html#sklearn.neural_network.MLPClassifier">docs</a>).</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[182]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%time</span>
+<span class="n">nn_classifier</span> <span class="o">=</span> <span class="n">MLPClassifier</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">max_iter</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">df_train</span><span class="p">,</span> <span class="n">df_outcome_train</span><span class="p">)</span>
+</pre></div>
+</body></html>
+
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>CPU times: user 2min 8s, sys: 2.76 s, total: 2min 10s
+Wall time: 38.4 s
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>On a 1.6 GHz Dual-Core Intel Core i5 training takes ~40s.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="Evaluating-the-performance-of-the-NN-Classifier">Evaluating the performance of the NN Classifier<a class="anchor-link" href="#Evaluating-the-performance-of-the-NN-Classifier">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>We compute the confusion matrix for the neural network classifier.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[181]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nn_predicted</span> <span class="o">=</span> <span class="n">nn_classifier</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">df_test</span><span class="p">)</span>
+
+<span class="n">confusion_matrix_md</span><span class="p">(</span><span class="n">nn_predicted</span><span class="p">,</span> <span class="n">df_outcome_test</span><span class="p">)</span>
+<span class="n">recall_selectivity_md</span><span class="p">(</span><span class="n">nn_predicted</span><span class="p">,</span> <span class="n">df_outcome_test</span><span class="p">)</span>
+</pre></div>
+</body></html>
+
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output " data-mime-type="text/markdown">
+<table>
+<thead><tr>
+<th style="text-align:right"></th>
+<th style="text-align:center">Actual Subscriber</th>
+<th style="text-align:center">Actual Nonsubscriber</th>
+<th style="text-align:left">Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">Predicted Subscriber</td>
+<td style="text-align:center">TP = 272</td>
+<td style="text-align:center">FP = 257</td>
+<td style="text-align:left">TP + FP = 529</td>
+</tr>
+<tr>
+<td style="text-align:right">Predicted Nonsubscriber</td>
+<td style="text-align:center">FN = 836</td>
+<td style="text-align:center">TN = 8500</td>
+<td style="text-align:left">FN + TN = 9336</td>
+</tr>
+<tr>
+<td style="text-align:right">Total</td>
+<td style="text-align:center">TP + FN=1108</td>
+<td style="text-align:center">FP + TN = 8757</td>
+<td style="text-align:left">9865</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-OutputArea-output " data-mime-type="text/markdown">
+<table>
+<thead><tr>
+<th style="text-align:right"></th>
+<th style="text-align:left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">Recall</td>
+<td style="text-align:left">${ {\mathrm {TP} } \over {\mathrm {TP} +\mathrm {FN} }}=$ 24.55%</td>
+</tr>
+<tr>
+<td style="text-align:right">Selectivity</td>
+<td style="text-align:left">${ {\mathrm {TN} } \over {\mathrm {TN} +\mathrm {FP} }}=$ 97.07%</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>From the matrix we can see that while we only targeted 529/9865 = 5.36% of the customers, we were able to capture 272/1108 = 24.55% of the theoretical maximum number of subscribers.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Time-Spent">Time Spent<a class="anchor-link" href="#Time-Spent">&#182;</a></h1><p>I estimate I spent ~12 hours on this project.</p>
+<p>Much of that time was spent wrestling with SciKit-Learn's pipeline API, which I am not very familiar with. I also wasted a lot of time trying to bootstrap TensorFlow on my machine, but I ultimately gave up.</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
